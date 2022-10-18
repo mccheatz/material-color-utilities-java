@@ -1,33 +1,16 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
+.gradle
+/build/
+.idea
+/run/
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
+# Ignore Gradle GUI config
+gradle-app.setting
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
 
-# Flutter/Dart/Pub related
-# Libraries should not include pubspec.lock, per https://dart.dev/guides/libraries/private-files#pubspeclock.
-pubspec.lock
-**/doc/api/
-.dart_tool/
-.packages
-build/
+# Cache of project
+.gradletasknamecache
 
-# TS related
-node_modules
-typescript/dist
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
